@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+
+  h1 {
+    background: -webkit-linear-gradient(150deg, rgba(255,226,131,1) 2%, rgba(124,212,241,1) 18%, rgba(153,164,255,1) 59%, rgba(168,161,255,1) 89%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.navbar-menu-item {
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+  align-items: center;
+}
