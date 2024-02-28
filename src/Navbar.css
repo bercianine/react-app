@@ -23,3 +23,15 @@
   font-size: 18px;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+  .navbar-menu-item h5 {
+    display: none;
+  }
+}
