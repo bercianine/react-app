@@ -1,0 +1,40 @@
+.navbar {
+  padding-top: 40px;
+  padding-left: 72px;
+  padding-right: 72px;
+
+  img {
+    width: 100%;
+    margin-top: 32px;
+  }
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-menu-item {
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+  text-transform: uppercase;
+  align-items: center;
+
+  h5 {
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+  .navbar-menu-item h5 {
+    display: none;
+  }
+}
