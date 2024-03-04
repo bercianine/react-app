@@ -1,0 +1,28 @@
+.carousel-container {
+  padding: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-banners {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 32px;
+  overflow: visible;
+}
+
+.carousel-banner {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  transition: translate 300ms ease-in-out;
+}
+
+.carousel-button {
+  all: unset;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 2rem;
+  cursor: pointer;
+}
