@@ -6,14 +6,37 @@
   padding: 80px 160px 80px 160px;
 }
 
+  .section-container p {
+    font-size: 22px;
+  }
+
+  .section-container h4 {
+    font-weight: 700;
+  }
+
 .section-content {
   width: 100%;
 }
 
-.section-container p {
-  font-size: 22px;
+.img-section-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 136px;
+  width: 100%;
+  padding: 80px 160px 80px 160px;
+  align-items: center;
 }
 
-.section-container h4 {
-  font-weight: 700;
-}
+  .img-section-container p {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+
+  .img-section-container h4 {
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .img-section-img {
+    width: 320px;
+  }

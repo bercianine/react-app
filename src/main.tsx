@@ -6,6 +6,7 @@ import './stylesheets/App.css'
 import './stylesheets/Navbar.css'
 import './stylesheets/Carousel.css'
 import './stylesheets/Section.css'
+import './stylesheets/Button.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
