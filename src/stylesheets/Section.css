@@ -1,0 +1,19 @@
+.section-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 80px;
+  width: 100%;
+  padding: 80px 160px 80px 160px;
+}
+
+.section-content {
+  width: 100%;
+}
+
+.section-container p {
+  font-size: 22px;
+}
+
+.section-container h4 {
+  font-weight: 700;
+}
