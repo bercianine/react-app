@@ -7,6 +7,7 @@ import './stylesheets/Navbar.css'
 import './stylesheets/Carousel.css'
 import './stylesheets/Section.css'
 import './stylesheets/Button.css'
+import './stylesheets/Footer.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

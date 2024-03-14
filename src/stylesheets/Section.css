@@ -4,15 +4,15 @@
   gap: 80px;
   width: 100%;
   padding: 80px 160px 80px 160px;
-}
 
-  .section-container p {
+  p {
     font-size: 22px;
   }
 
-  .section-container h4 {
+  h4 {
     font-weight: 700;
   }
+}
 
 .section-content {
   width: 100%;
@@ -25,18 +25,18 @@
   width: 100%;
   padding: 80px 160px 80px 160px;
   align-items: center;
-}
 
-  .img-section-container p {
+  p {
     font-size: 22px;
     margin-bottom: 24px;
   }
 
-  .img-section-container h4 {
+  h4 {
     font-weight: 700;
     margin-bottom: 16px;
   }
+}
 
-  .img-section-img {
-    width: 320px;
-  }
+.img-section-img {
+  width: 320px;
+}

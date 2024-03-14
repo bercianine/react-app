@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import SectionText from "./components/SectionText"
 import Carousel from "./components/Carousel"
 import SectionImage from "./components/SectionImage"
+import Footer from "./components/Footer"
 
 import banner1 from "./assets/banner-1.png"
 import banner2 from "./assets/banner-2.png"
@@ -19,6 +20,7 @@ function App() {
       <SectionText rightSide={sectionOne[0]} leftSide={sectionOne[1]} />
       <Carousel imageUrls={IMAGES}/>
       <SectionImage image={sectionTwo[0]} heading={sectionTwo[1]} text={sectionTwo[2]} buttonText="Join now"/>
+      <Footer />
     </>
   )
 }
